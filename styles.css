@@ -1,0 +1,123 @@
+body{
+  background:#eee;
+  font-family:'Rubik', sans-serif;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  width:670px;
+  height:440px;
+  background:white;
+  border-radius:12px;
+  display:flex;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  overflow:visible;
+}
+
+/* LEFT SIDE */
+
+.left{
+  width:50%;
+  padding:30px;
+  color:white;
+  position:relative;
+  background: linear-gradient(180deg,#06d7c1,#50cc49);
+  border-radius: 10px;
+}
+
+.logo{
+  width:60px;
+}
+
+.left h2{
+  font-size:16px;
+  font-weight:500;
+  margin-top:30px;
+}
+
+.shoe{
+  position:absolute;
+  top: 130px;
+  right: 4px;
+}
+
+.price{
+  position:absolute;
+  bottom:30px;
+  right:30px;
+  text-align:right;
+}
+
+.amount{
+  font-size:28px;
+  font-weight:500;
+}
+
+.garance{
+  font-size:12px;
+  display:block;
+}
+
+/* RIGHT SIDE */
+
+.right{
+  width:50%;
+  padding:30px;
+  position: relative;
+}
+
+.right h1{
+  font-size:20px;
+  font-weight:500;
+}
+
+.subtitle{
+  color:gray;
+  margin-bottom:30px;
+  margin-top: 5px;
+}
+
+.desc{
+  font-size:14px;
+  line-height:1.5;
+}
+
+hr{
+  margin:25px 0;
+  border:none;
+  border-top:2px solid #06d7c1;
+}
+
+.right h3{
+  font-size:14px;
+  margin-bottom:10px;
+}
+
+.sizes span{
+  margin-right:12px;
+  cursor:pointer;
+}
+
+.sizes .active{
+  border:1px solid #ff5a3c;
+  border-radius:100%;
+  padding:5px 5px;
+  color: #ff5a3c;
+}
+
+button{
+  background:#ff5a3c;
+  border:none;
+  color:white;
+  border-radius:6px;
+  font-weight:500;
+  cursor:pointer;
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  width: 120px;
+  height: 45px;
+}
